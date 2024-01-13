@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Резюме</title>
+    <style>
+        body{
+            background-color: gainsboro;
+            padding: 20px;
+        }
+        h1,h2{
+            text-align: center;
+        }
+        img{
+            border-radius: 50%;
+        }
+        .box1{
+            display: flex;
+        }
+
+        @media only screen and (max-width: 600px){
+            .box1{
+                flex-direction: column;
+            }
+        }
+    </style>
 </head>
 <body>
-    
+<h1>Резюме</h1>
+<div class="box1">
+    <img src="cat.jpg" alt="">
+
+    <div class="box1-txt">
+        <h2>Стэк</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+</div>
+
+
+<h2>О себе</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt repellendus quas aliquid, reiciendis minus consequuntur iusto voluptates velit non, ad ipsum fugiat reprehenderit. Dicta quas vitae consequatur iure corrupti earum. Voluptatem cupiditate tenetur autem nemo inventore. Beatae ut earum quo tempore, assumenda consectetur odio! Consequatur velit aliquam quas impedit?</p>
+
 </body>
 </html>
+
+ 
